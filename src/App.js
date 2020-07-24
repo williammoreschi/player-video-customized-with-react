@@ -80,7 +80,7 @@ function App() {
       </video>
       <div className="controls">
         <button onClick={toggleVideoPlay} >
-          {playerState.playing ? 'Play' : 'Pause'}
+          {playerState.playing ? 'Pause' : 'Play'}
         </button>
         <input
         type="range"
